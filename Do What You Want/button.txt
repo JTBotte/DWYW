@@ -1,0 +1,31 @@
+			while (Keyboard.next())
+				if (Keyboard.isKeyDown(Keyboard.KEY_Q))
+					if (button1.isHidden())
+						button1.show(guis);
+					else
+						button1.hide(guis);
+
+			button1.update();
+
+		// Button Testing
+		AbstractButton button1 = new AbstractButton(loader, "lamp", new Vector2f(0, 0), new Vector2f(0.2f, 0.2f)) {
+
+			@Override
+			public void whileHovering(IButton button) {
+
+			}
+
+			@Override
+			public void onStopHover(IButton button) {
+				button.resetScale();
+			}
+
+			@Override
+			public void onStartHover(IButton button) {
+				button.playHoverAnimation(0.092f);
+			}
+
+			@Override
+			public void onClick(IButton button) {
+			}
+		};

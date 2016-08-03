@@ -1,0 +1,9 @@
+Controls for third person:
+W = Move Forward
+S = Move Backwards
+A = Rotate Left
+D = Rotate Right
+Space = Jump
+LMB = Rotate Camera Around Player
+RMB = Change Camera Pitch
+Scroll Wheel = Zoom In/Out
